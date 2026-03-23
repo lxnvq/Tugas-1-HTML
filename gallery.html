@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valencia Tjandra — Gallery</title>
+</head>
+<body style="margin:0; padding:0; background-color:#0d0d12; color:#e8e8f0; font-family:Georgia, 'Times New Roman', serif; min-height:100vh;">
+
+  <!-- NAV -->
+  <nav style="background-color:#0a0a0a; border-bottom:1px solid #66666633; padding:0 40px; display:flex; align-items:center; justify-content:space-between; height:64px; position:sticky; top:0; z-index:100;">
+    <span style="font-size:1.3rem; font-weight:bold; color:#aaaaaa; letter-spacing:2px; font-family:'Courier New', monospace;">VALENCIA.</span>
+    <div style="display:flex; gap:32px;">
+      <a href="index.html" style="color:#888888; text-decoration:none; font-size:0.85rem; letter-spacing:2px; text-transform:uppercase;">Home</a>
+      <a href="gallery.html" style="color:#aaaaaa; text-decoration:none; font-size:0.85rem; letter-spacing:2px; text-transform:uppercase; border-bottom:2px solid #aaaaaa; padding-bottom:2px;">Gallery</a>
+      <a href="blog.html" style="color:#888888; text-decoration:none; font-size:0.85rem; letter-spacing:2px; text-transform:uppercase;">Blog</a>
+      <a href="contact.html" style="color:#888888; text-decoration:none; font-size:0.85rem; letter-spacing:2px; text-transform:uppercase;">Contact</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header style="padding:70px 40px 50px; text-align:center; border-bottom:1px solid #66666622;">
+    <p style="font-family:'Courier New', monospace; font-size:0.75rem; letter-spacing:4px; color:#666666; text-transform:uppercase; margin:0 0 12px 0;">Koleksi Visual</p>
+    <h1 style="font-size:clamp(2rem, 5vw, 3.5rem); font-weight:normal; color:#ffffff; margin:0 0 16px 0;">My <span style="color:#aaaaaa; font-style:italic;">Gallery</span></h1>
+    <p style="color:#888888; max-width:500px; margin:0 auto; line-height:1.8; font-size:0.95rem;">Kumpulan foto perjalanan, alam, dan momen sehari-hari yang saya abadikan.</p>
+  </header>
+
+  <!-- FILTER TABS (HTML only, dekoratif) -->
+  <div style="display:flex; gap:0; justify-content:center; padding:36px 40px 0; flex-wrap:wrap; gap:12px;">
+    <span style="background:#666666; color:#fff; padding:8px 22px; font-family:'Courier New', monospace; font-size:0.75rem; letter-spacing:2px; text-transform:uppercase; cursor:default;">All</span>
+    <span style="background:transparent; border:1px solid #66666644; color:#888888; padding:8px 22px; font-family:'Courier New', monospace; font-size:0.75rem; letter-spacing:2px; text-transform:uppercase; cursor:default;">Nature</span>
+    <span style="background:transparent; border:1px solid #66666644; color:#888888; padding:8px 22px; font-family:'Courier New', monospace; font-size:0.75rem; letter-spacing:2px; text-transform:uppercase; cursor:default;">Random</span>
+    <span style="background:transparent; border:1px solid #66666644; color:#888888; padding:8px 22px; font-family:'Courier New', monospace; font-size:0.75rem; letter-spacing:2px; text-transform:uppercase; cursor:default;">Animal</span>
+  </div>
+
+  <!-- GALLERY GRID -->
+  <main style="padding:40px; max-width:1200px; margin:0 auto;">
+
+    <!-- Row 1 -->
+    <div style="display:flex; gap:16px; margin-bottom:16px; flex-wrap:wrap;">
+
+      <!-- Photo 1 — large -->
+      <figure style="flex:2; min-width:280px; margin:0; position:relative; overflow:hidden; background:#1a1a1a; border:1px solid #66666622;">
+        <img src="images/GoldenTide.jpeg" alt="Pemandangan Pantai Bunaken" style="width:100%; height:300px; object-fit:cover; display:block; filter:brightness(0.85) saturate(0.8);">
+        <figcaption style="position:absolute; bottom:0; left:0; right:0; padding:16px 20px; background:linear-gradient(transparent, #0d0d12dd);">
+          <p style="margin:0; font-size:0.7rem; letter-spacing:2px; color:#aaaaaa; font-family:'Courier New', monospace; text-transform:uppercase;">Nature</p>
+          <p style="margin:4px 0 0; font-size:0.95rem; color:#ffffff;">Golden Tide</p>
+        </figcaption>
+      </figure>
+
+      <!-- Photo 2 -->
+      <figure style="flex:1; min-width:200px; margin:0; position:relative; overflow:hidden; background:#1a1a1a; border:1px solid #66666622;">
+        <img src="images/PageInTheDark.jpeg" alt="Kota Manado Malam" style="width:100%; height:300px; object-fit:cover; display:block; filter:brightness(0.85) saturate(0.8);">
+        <figcaption style="position:absolute; bottom:0; left:0; right:0; padding:16px 20px; background:linear-gradient(transparent, #0d0d12dd);">
+          <p style="margin:0; font-size:0.7rem; letter-spacing:2px; color:#aaaaaa; font-family:'Courier New', monospace; text-transform:uppercase;">Random</p>
+          <p style="margin:4px 0 0; font-size:0.95rem; color:#ffffff;">A Page In The Dark</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 2 -->
+    <div style="display:flex; gap:16px; margin-bottom:16px; flex-wrap:wrap;">
+      <figure style="flex:1; min-width:200px; margin:0; position:relative; overflow:hidden; background:#1a1a1a; border:1px solid #66666622;">
+        <img src="images/EveningByTheGlass.jpeg" alt="Laptop & Code" style="width:100%; height:260px; object-fit:cover; display:block; filter:brightness(0.85) saturate(0.8);">
+        <figcaption style="position:absolute; bottom:0; left:0; right:0; padding:16px 20px; background:linear-gradient(transparent, #0d0d12dd);">
+          <p style="margin:0; font-size:0.7rem; letter-spacing:2px; color:#aaaaaa; font-family:'Courier New', monospace; text-transform:uppercase;">Animal</p>
+          <p style="margin:4px 0 0; font-size:0.95rem; color:#ffffff;">Evening By The Glass</p>
+        </figcaption>
+      </figure>
+
+      <figure style="flex:1; min-width:200px; margin:0; position:relative; overflow:hidden; background:#1a1a1a; border:1px solid #66666622;">
+        <img src="images/SunlightInSilence.jpeg" alt="Hutan Tropis" style="width:100%; height:260px; object-fit:cover; display:block; filter:brightness(0.85) saturate(0.8);">
+        <figcaption style="position:absolute; bottom:0; left:0; right:0; padding:16px 20px; background:linear-gradient(transparent, #0d0d12dd);">
+          <p style="margin:0; font-size:0.7rem; letter-spacing:2px; color:#aaaaaa; font-family:'Courier New', monospace; text-transform:uppercase;">Nature</p>
+          <p style="margin:4px 0 0; font-size:0.95rem; color:#ffffff;">Sunlight In Silence</p>
+        </figcaption>
+      </figure>
+
+      <figure style="flex:1; min-width:200px; margin:0; position:relative; overflow:hidden; background:#1a1a1a; border:1px solid #66666622;">
+        <img src="images/AmberLights.jpeg" alt="Arsitektur Modern" style="width:100%; height:260px; object-fit:cover; display:block; filter:brightness(0.85) saturate(0.8);">
+        <figcaption style="position:absolute; bottom:0; left:0; right:0; padding:16px 20px; background:linear-gradient(transparent, #0d0d12dd);">
+          <p style="margin:0; font-size:0.7rem; letter-spacing:2px; color:#aaaaaa; font-family:'Courier New', monospace; text-transform:uppercase;">Random</p>
+          <p style="margin:4px 0 0; font-size:0.95rem; color:#ffffff;">Amber Lights</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 3 -->
+    <div style="display:flex; gap:16px; flex-wrap:wrap;">
+      <figure style="flex:1; min-width:200px; margin:0; position:relative; overflow:hidden; background:#1a1a1a; border:1px solid #66666622;">
+        <img src="images/SilentHorizon.jpeg" alt="Sunset" style="width:100%; height:220px; object-fit:cover; display:block; filter:brightness(0.85) saturate(0.8);">
+        <figcaption style="position:absolute; bottom:0; left:0; right:0; padding:14px 18px; background:linear-gradient(transparent, #0d0d12dd);">
+          <p style="margin:0; font-size:0.7rem; letter-spacing:2px; color:#aaaaaa; font-family:'Courier New', monospace; text-transform:uppercase;">Nature</p>
+          <p style="margin:4px 0 0; font-size:0.9rem; color:#ffffff;">Silent Horizon</p>
+        </figcaption>
+      </figure>
+
+      <figure style="flex:1; min-width:200px; margin:0; position:relative; overflow:hidden; background:#1a1a1a; border:1px solid #66666622;">
+        <img src="images/CocoaInTheSun.jpeg" alt="Workspace" style="width:100%; height:220px; object-fit:cover; display:block; filter:brightness(0.85) saturate(0.8);">
+        <figcaption style="position:absolute; bottom:0; left:0; right:0; padding:14px 18px; background:linear-gradient(transparent, #0d0d12dd);">
+          <p style="margin:0; font-size:0.7rem; letter-spacing:2px; color:#aaaaaa; font-family:'Courier New', monospace; text-transform:uppercase;">Animal</p>
+          <p style="margin:4px 0 0; font-size:0.9rem; color:#ffffff;">Cocoa In The Sun</p>
+        </figcaption>
+      </figure>
+
+      <figure style="flex:1; min-width:200px; margin:0; position:relative; overflow:hidden; background:#1a1a1a; border:1px solid #66666622;">
+        <img src="images/HiddenGlow.jpeg" alt="Gunung Lokon" style="width:100%; height:220px; object-fit:cover; display:block; filter:brightness(0.85) saturate(0.8);">
+        <figcaption style="position:absolute; bottom:0; left:0; right:0; padding:14px 18px; background:linear-gradient(transparent, #0d0d12dd);">
+          <p style="margin:0; font-size:0.7rem; letter-spacing:2px; color:#aaaaaa; font-family:'Courier New', monospace; text-transform:uppercase;">Nature</p>
+          <p style="margin:4px 0 0; font-size:0.9rem; color:#ffffff;">Hidden Glow</p>
+        </figcaption>
+      </figure>
+
+      <figure style="flex:1; min-width:200px; margin:0; position:relative; overflow:hidden; background:#1a1a1a; border:1px solid #66666622;">
+        <img src="images/QuietCoastline.jpeg" alt="Street Photography" style="width:100%; height:220px; object-fit:cover; display:block; filter:brightness(0.85) saturate(0.8);">
+        <figcaption style="position:absolute; bottom:0; left:0; right:0; padding:14px 18px; background:linear-gradient(transparent, #0d0d12dd);">
+          <p style="margin:0; font-size:0.7rem; letter-spacing:2px; color:#aaaaaa; font-family:'Courier New', monospace; text-transform:uppercase;">Kota</p>
+          <p style="margin:4px 0 0; font-size:0.9rem; color:#ffffff;">Quiet Coastline</p>
+        </figcaption>
+      </figure>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer style="background-color:#0a0a0a; border-top:1px solid #66666622; padding:30px 40px; text-align:center; margin-top:60px;">
+    <p style="color:#555555; font-size:0.8rem; margin:0; font-family:'Courier New', monospace; letter-spacing:1px;">© 2026 Valencia Tjandra — ❤ </p>
+  </footer>
+
+</body>
+</html>
